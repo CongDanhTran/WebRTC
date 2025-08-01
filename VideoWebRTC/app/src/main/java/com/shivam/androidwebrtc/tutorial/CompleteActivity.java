@@ -125,7 +125,7 @@ public class CompleteActivity extends AppCompatActivity {
         try {
             // For me this was "http://192.168.1.220:3000";
             // $ hostname -I
-            String URL = "http://10.173.1.175:3030/";// "https://calm-badlands-59575.herokuapp.com/"; //
+            String URL = "https://nhatrohaibinh.vn";
             Log.e(TAG, "REPLACE ME: IO Socket:" + URL);
             socket = IO.socket(URL);
 
